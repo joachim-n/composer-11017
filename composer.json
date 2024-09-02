@@ -9,6 +9,14 @@
     ],
     "require": {
         "drupal/core": "^10",
-        "joachim-n/mutable-typed-data": "1.1.8"
+        "joachim-n/mutable-typed-data": "1.1.8",
+        "drupal/core-dev": "^10"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
