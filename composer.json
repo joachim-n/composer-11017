@@ -8,9 +8,9 @@
         }
     ],
     "require": {
-        "drupal/core": "^10",
+        "drupal/core": "^11",
         "joachim-n/mutable-typed-data": "1.1.8",
-        "drupal/core-dev": "^10"
+        "drupal/core-dev": "^11"
     },
     "config": {
         "allow-plugins": {
